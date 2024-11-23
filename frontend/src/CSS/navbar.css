@@ -1,0 +1,63 @@
+/* Container for the Navbar */
+.navbar-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .month-selector {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .month-selector select {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    width: 100%;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .nav-links li {
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .nav-links li:hover {
+    background-color: #555;
+  }
+  
+  .nav-links li.active {
+    background-color: #4CAF50; /* Highlight active tab */
+  }
+  
+  /* Content Section */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    width: 100%;
+  }
+  
